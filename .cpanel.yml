@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/hostinet/public_html/wp-content/themes/YOUR_THEME_FOLDER_NAME/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home2/hostinet/nextcloud.hostinetix.com/wp-content/themes/twentytwentyfive/
+    - /bin/cp -rd * $DEPLOYPATH
