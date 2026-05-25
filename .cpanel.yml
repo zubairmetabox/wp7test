@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/hostinet/nextcloud.hostinetix.com/wp-content/themes/twentytwentyfive/
+    - export DEPLOYPATH=/home2/hostinet/nextcloud.hostinetix.com/wp-content/plugins/ai-test-plugin/
     - /bin/cp -rd * $DEPLOYPATH
